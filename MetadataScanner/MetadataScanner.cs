@@ -474,6 +474,7 @@ namespace MetadataScanner
                 line = reader.ReadLine();
                 tokens.Add(line);
             }
+            reader.Close();
             return tokens;
         }
 
